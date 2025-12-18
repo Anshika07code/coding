@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+int pal(char s[], int i, int n) {
+    if (i >= n) return 1;
+    if (s[i] != s[n]) return 0;
+    return pal(s, i + 1, n - 1);
+}
+int main() {
+    char s[] = "madam";
+    if (pal(s, 0, strlen(s) - 1))
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
+    return 0;
+}
