@@ -1,0 +1,9 @@
+#include <stdio.h>
+#define N 5
+int q[N], f = -1, r = -1;
+void enq(int x) {
+    if ((r + 1) % N == f) return;
+    if (f == -1) f = 0;
+    r = (r + 1) % N;
+    q[r] = x;
+}
