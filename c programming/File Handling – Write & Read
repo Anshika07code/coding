@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    FILE *fp;
+    char s[50];
+    fp = fopen("test.txt", "w");
+    fprintf(fp, "C Programming");
+    fclose(fp);
+
+    fp = fopen("test.txt", "r");
+    fgets(s, 50, fp);
+    printf("%s", s);
+    fclose(fp);
+    return 0;
+}
