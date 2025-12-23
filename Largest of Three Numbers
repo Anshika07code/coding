@@ -1,0 +1,6 @@
+a = gets.to_i
+b = gets.to_i
+c = gets.to_i
+
+largest = [a, b, c].max
+puts "Largest number is #{largest}"
