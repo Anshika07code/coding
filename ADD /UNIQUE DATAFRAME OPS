@@ -1,0 +1,10 @@
+df.T
+df.memory_usage(deep=True)
+df.select_dtypes(include="object")
+df.select_dtypes(exclude="number")
+df.astype({"Age": "float"})
+df.infer_objects()
+df.convert_dtypes()
+df.equals(df2)
+df.bool()
+df.squeeze()
