@@ -1,0 +1,10 @@
+pd.to_datetime(df.Date)
+df.Date.dt.year
+df.Date.dt.month
+df.Date.dt.day
+df.Date.dt.weekday
+df.Date.dt.strftime("%d-%m-%Y")
+df.Date.dt.is_month_end
+df.resample("M").mean()
+df.shift(1)
+df.rolling(3).mean()
