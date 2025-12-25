@@ -1,0 +1,10 @@
+df["Grade"] = "A"
+df["Marks"] += 5
+df.rename(columns={"Marks": "Score"})
+df.rename(index={0: "a"})
+df.assign(Result="Pass")
+df.insert(1, "Roll", [1, 2, 3])
+df.update(df2)
+df["Age"] = df["Age"].astype(int)
+df["Name"] = df["Name"].str.upper()
+df["Name"] = df["Name"].str.lower()
