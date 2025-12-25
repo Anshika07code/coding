@@ -1,0 +1,2 @@
+df[df["Marks"] > 85]
+df[df["Age"] == 20]
