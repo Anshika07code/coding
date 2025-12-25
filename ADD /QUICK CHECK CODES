@@ -1,0 +1,5 @@
+df.head(3)
+df.tail(3)
+df.describe()
+df.memory_usage()
+df.select_dtypes(include="number")
