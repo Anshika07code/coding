@@ -1,0 +1,2 @@
+df.groupby("Passed")["Marks"].mean()
+df.groupby("Passed").agg({"Marks": ["mean", "max"]})
