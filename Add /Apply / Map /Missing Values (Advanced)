@@ -1,0 +1,4 @@
+df.interpolate()
+df.fillna(method="ffill")
+df.fillna(method="bfill")
+df.dropna(thresh=2)
