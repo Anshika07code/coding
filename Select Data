@@ -1,0 +1,6 @@
+df["Age"]
+df[["Name", "Marks"]]
+
+df.iloc[0]          # by index
+df.iloc[0:3]
+df.loc[0, "Marks"]  # by label
