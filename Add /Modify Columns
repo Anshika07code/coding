@@ -1,0 +1,2 @@
+df["Passed"] = df["Marks"] >= 40
+df["Age"] = df["Age"] + 1
