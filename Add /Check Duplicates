@@ -1,0 +1,2 @@
+df.duplicated()
+df.drop_duplicates()
