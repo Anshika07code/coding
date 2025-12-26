@@ -1,0 +1,4 @@
+df.drop("Age", axis=1)
+df.drop(0)
+df.dropna()
+df.fillna(0)
