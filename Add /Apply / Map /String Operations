@@ -1,0 +1,5 @@
+df["Name"].str.lower()
+df["Name"].str.upper()
+df["Name"].str.contains("a")
+df["Name"].str.replace("A", "Alpha")
+df["Name"].str.split()
