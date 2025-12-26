@@ -1,0 +1,4 @@
+df["Marks"].map({85: "Good", 90: "Excellent"})
+df["Marks"].replace(85, 86)
+df.apply(len)
+df.applymap(str)
