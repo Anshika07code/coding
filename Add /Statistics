@@ -1,0 +1,5 @@
+df["Marks"].mean()
+df["Marks"].max()
+df["Marks"].min()
+df["Marks"].sum()
+df["Marks"].count()
