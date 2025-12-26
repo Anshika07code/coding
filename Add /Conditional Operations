@@ -1,0 +1,3 @@
+df.where(df["Marks"] > 40)
+df.mask(df["Marks"] < 40, "Fail")
+df.query("Marks > 80 and Age < 22")
