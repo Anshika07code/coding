@@ -1,0 +1,4 @@
+df.rank()
+df["Marks"].rank(ascending=False)
+df.nlargest(3, "Marks")
+df.nsmallest(2, "Marks")
