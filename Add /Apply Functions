@@ -1,0 +1,1 @@
+df["Marks"] = df["Marks"].apply(lambda x: x + 5)
