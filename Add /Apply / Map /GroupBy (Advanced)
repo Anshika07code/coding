@@ -1,0 +1,4 @@
+df.groupby("Passed").size()
+df.groupby("Passed").count()
+df.groupby("Passed")["Marks"].transform("mean")
+df.groupby("Passed").filter(lambda x: x["Marks"].mean() > 80)
