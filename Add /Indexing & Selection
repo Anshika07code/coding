@@ -1,0 +1,5 @@
+df.at[0, "Marks"]
+df.iat[1, 2]
+df.filter(regex="Mar")
+df.filter(items=["Name", "Marks"])
+df.filter(like="Age")
