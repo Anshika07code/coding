@@ -1,0 +1,6 @@
+df.memory_usage()
+df.memory_usage(deep=True)
+df.select_dtypes(include="number")
+df.select_dtypes(exclude="object")
+df.nunique()
+df.isna().sum()
