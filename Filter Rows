@@ -1,0 +1,2 @@
+df[df["Age"] > 20]
+df[(df["Age"] > 20) & (df["Marks"] > 85)]
