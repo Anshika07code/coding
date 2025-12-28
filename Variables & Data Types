@@ -1,0 +1,7 @@
+name = "Anshika"
+age = 20
+height = 5.4
+
+puts "Name: #{name}"
+puts "Age: #{age}"
+puts "Height: #{height}"
