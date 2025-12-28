@@ -1,0 +1,8 @@
+print "Enter a number: "
+num = gets.to_i
+
+if num.even?
+  puts "Even number"
+else
+  puts "Odd number"
+end
