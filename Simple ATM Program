@@ -1,0 +1,28 @@
+balance = 1000
+
+puts "1. Check Balance"
+puts "2. Deposit"
+puts "3. Withdraw"
+
+choice = gets.to_i
+
+case choice
+when 1
+  puts "Balance: #{balance}"
+when 2
+  print "Enter amount: "
+  amt = gets.to_i
+  balance += amt
+  puts "Updated Balance: #{balance}"
+when 3
+  print "Enter amount: "
+  amt = gets.to_i
+  if amt <= balance
+    balance -= amt
+    puts "Withdrawn. Balance: #{balance}"
+  else
+    puts "Insufficient balance"
+  end
+else
+  puts "Invalid choice"
+end
