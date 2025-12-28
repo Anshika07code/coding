@@ -1,0 +1,14 @@
+print "Enter marks: "
+marks = gets.to_i
+
+if marks >= 90
+  puts "Grade: A+"
+elsif marks >= 80
+  puts "Grade: A"
+elsif marks >= 70
+  puts "Grade: B"
+elsif marks >= 60
+  puts "Grade: C"
+else
+  puts "Fail"
+end
