@@ -1,0 +1,16 @@
+secret = rand(1..10)
+
+puts "Guess a number between 1 and 10"
+
+loop do
+  guess = gets.to_i
+
+  if guess == secret
+    puts "🎉 Correct! You guessed it."
+    break
+  elsif guess > secret
+    puts "Too high!"
+  else
+    puts "Too low!"
+  end
+end
