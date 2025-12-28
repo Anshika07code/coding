@@ -1,0 +1,14 @@
+username = "admin"
+password = "1234"
+
+print "Enter username: "
+u = gets.chomp
+
+print "Enter password: "
+p = gets.chomp
+
+if u == username && p == password
+  puts "Login successful ✅"
+else
+  puts "Invalid credentials ❌"
+end
