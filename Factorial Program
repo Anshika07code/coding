@@ -1,0 +1,9 @@
+print "Enter a number: "
+n = gets.to_i
+
+fact = 1
+(1..n).each do |i|
+  fact *= i
+end
+
+puts "Factorial = #{fact}"
