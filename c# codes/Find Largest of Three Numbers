@@ -1,0 +1,10 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 3, b = 8, c = 5;
+        Console.WriteLine(Math.Max(a, Math.Max(b, c)));
+    }
+}
