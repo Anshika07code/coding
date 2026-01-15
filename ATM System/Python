@@ -1,0 +1,23 @@
+pin = 1234
+balance = 5000
+
+entered = int(input("Enter PIN: "))
+if entered != pin:
+    print("Invalid PIN")
+    exit()
+
+print("1.Balance 2.Deposit 3.Withdraw")
+choice = int(input())
+
+if choice == 1:
+    print("Balance:", balance)
+elif choice == 2:
+    balance += float(input("Amount: "))
+    print("New Balance:", balance)
+elif choice == 3:
+    amt = float(input("Amount: "))
+    if amt <= balance:
+        balance -= amt
+        print("New Balance:", balance)
+    else:
+        print("Insufficient Balance")
