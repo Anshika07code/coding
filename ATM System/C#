@@ -1,0 +1,32 @@
+using System;
+
+class ATM {
+    static void Main() {
+        int pin = 1234;
+        double balance = 5000;
+
+        Console.Write("Enter PIN: ");
+        if (int.Parse(Console.ReadLine()) != pin) {
+            Console.WriteLine("Invalid PIN");
+            return;
+        }
+
+        Console.WriteLine("1.Balance 2.Deposit 3.Withdraw");
+        int choice = int.Parse(Console.ReadLine());
+
+        if (choice == 1)
+            Console.WriteLine("Balance: " + balance);
+        else if (choice == 2) {
+            balance += double.Parse(Console.ReadLine());
+            Console.WriteLine("New Balance: " + balance);
+        }
+        else if (choice == 3) {
+            double amt = double.Parse(Console.ReadLine());
+            if (amt <= balance) {
+                balance -= amt;
+                Console.WriteLine("New Balance: " + balance);
+            } else
+                Console.WriteLine("Insufficient Balance");
+        }
+    }
+}
