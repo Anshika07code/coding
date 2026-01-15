@@ -1,0 +1,25 @@
+let pin = 1234;
+let balance = 5000;
+
+let entered = prompt("Enter PIN");
+if (parseInt(entered) !== pin) {
+    alert("Invalid PIN");
+} else {
+    let choice = prompt("1.Balance 2.Deposit 3.Withdraw");
+
+    if (choice == 1)
+        alert("Balance: " + balance);
+    else if (choice == 2) {
+        balance += Number(prompt("Amount"));
+        alert("New Balance: " + balance);
+    }
+    else if (choice == 3) {
+        let amt = Number(prompt("Amount"));
+        if (amt <= balance) {
+            balance -= amt;
+            alert("New Balance: " + balance);
+        } else {
+            alert("Insufficient Balance");
+        }
+    }
+}
