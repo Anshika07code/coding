@@ -1,0 +1,26 @@
+pin = 1234
+balance = 5000
+
+print "Enter PIN: "
+if gets.to_i != pin
+  puts "Invalid PIN"
+  exit
+end
+
+puts "1.Balance 2.Deposit 3.Withdraw"
+choice = gets.to_i
+
+if choice == 1
+  puts "Balance: #{balance}"
+elsif choice == 2
+  balance += gets.to_i
+  puts "New Balance: #{balance}"
+elsif choice == 3
+  amt = gets.to_i
+  if amt <= balance
+    balance -= amt
+    puts "New Balance: #{balance}"
+  else
+    puts "Insufficient Balance"
+  end
+end
