@@ -1,0 +1,28 @@
+<?php
+$pin = 1234;
+$balance = 5000;
+
+$entered = intval(readline("Enter PIN: "));
+if ($entered != $pin) {
+    echo "Invalid PIN";
+    exit;
+}
+
+echo "1.Balance 2.Deposit 3.Withdraw\n";
+$choice = intval(readline());
+
+if ($choice == 1)
+    echo "Balance: $balance";
+elseif ($choice == 2) {
+    $balance += intval(readline("Amount: "));
+    echo "New Balance: $balance";
+}
+elseif ($choice == 3) {
+    $amt = intval(readline("Amount: "));
+    if ($amt <= $balance) {
+        $balance -= $amt;
+        echo "New Balance: $balance";
+    } else
+        echo "Insufficient Balance";
+}
+?>
