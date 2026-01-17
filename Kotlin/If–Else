@@ -1,0 +1,7 @@
+fun main() {
+    val marks = 75
+    if (marks >= 40)
+        println("Pass")
+    else
+        println("Fail")
+}
