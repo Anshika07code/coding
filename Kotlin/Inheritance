@@ -1,0 +1,12 @@
+open class Animal {
+    fun sound() {
+        println("Animal sound")
+    }
+}
+
+class Dog : Animal()
+
+fun main() {
+    val d = Dog()
+    d.sound()
+}
