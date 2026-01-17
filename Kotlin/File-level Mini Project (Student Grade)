@@ -1,0 +1,10 @@
+fun main() {
+    val marks = 82
+    val grade = when {
+        marks >= 80 -> "A"
+        marks >= 60 -> "B"
+        marks >= 40 -> "C"
+        else -> "Fail"
+    }
+    println("Grade: $grade")
+}
