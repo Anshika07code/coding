@@ -1,0 +1,4 @@
+fun main() {
+    val fruits = listOf("Apple", "Mango", "Orange")
+    println(fruits[1])
+}
