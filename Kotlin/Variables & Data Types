@@ -1,0 +1,5 @@
+fun main() {
+    val name: String = "Anshika"
+    var age: Int = 20
+    println("$name is $age years old")
+}
