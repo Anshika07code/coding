@@ -1,0 +1,10 @@
+class Student(val name: String, val roll: Int) {
+    fun display() {
+        println("$name - $roll")
+    }
+}
+
+fun main() {
+    val s = Student("Ram", 12)
+    s.display()
+}
