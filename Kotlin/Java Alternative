@@ -1,0 +1,4 @@
+fun main() {
+    val age = 20
+    println("Age is $age")
+}
