@@ -1,0 +1,9 @@
+fun main() {
+    val day = 3
+    when (day) {
+        1 -> println("Sunday")
+        2 -> println("Monday")
+        3 -> println("Tuesday")
+        else -> println("Invalid")
+    }
+}
