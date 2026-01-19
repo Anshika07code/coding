@@ -1,0 +1,6 @@
+fun main() {
+    val fruits = arrayOf("Apple", "Banana", "Cherry")
+    for (fruit in fruits) {
+        println(fruit)
+    }
+}
