@@ -1,0 +1,12 @@
+fun main() {
+    for (num in 2..20) {
+        var isPrime = true
+        for (i in 2 until num) {
+            if (num % i == 0) {
+                isPrime = false
+                break
+            }
+        }
+        if (isPrime) println("$num is prime")
+    }
+}
