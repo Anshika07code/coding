@@ -1,0 +1,6 @@
+class Person(val name: String, var age: Int)
+
+fun main() {
+    val p = Person("Anshika", 21)
+    println("${p.name} is ${p.age} years old")
+}
