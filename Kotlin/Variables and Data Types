@@ -1,0 +1,9 @@
+fun main() {
+    val name: String = "Anshika" // immutable
+    var age: Int = 20           // mutable
+
+    println("Name: $name, Age: $age")
+    
+    age += 1
+    println("Next year, Age: $age")
+}
