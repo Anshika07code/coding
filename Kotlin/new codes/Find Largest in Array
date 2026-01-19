@@ -1,0 +1,5 @@
+fun main() {
+    val numbers = arrayOf(3, 7, 2, 9, 5)
+    val max = numbers.maxOrNull()
+    println("Largest number: $max")
+}
