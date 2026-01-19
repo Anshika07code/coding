@@ -1,0 +1,5 @@
+fun main() {
+    val str = "level"
+    val isPalindrome = str == str.reversed()
+    println("$str is palindrome? $isPalindrome")
+}
