@@ -7,3 +7,4 @@ print "Enter second number: "
 b = gets.to_i
 
 puts "Sum = #{a + b}"
+  
