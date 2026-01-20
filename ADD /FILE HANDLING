@@ -1,5 +1,5 @@
 pd.read_excel("data.xlsx")
-df.to_excel("out.xlsx", index=False)
+df.to_excel("out.xlsx",index=False)
 pd.read_json("data.json")
 df.to_json("out.json")
 df.to_csv("file.csv")
