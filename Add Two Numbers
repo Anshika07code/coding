@@ -1,5 +1,5 @@
 print "Enter first number: "
- 
+   
 a = gets.to_i
 
 print "Enter second number: "
