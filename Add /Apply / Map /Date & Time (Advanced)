@@ -2,4 +2,4 @@ df["Date"].dt.day
 df["Date"].dt.month
 df["Date"].dt.weekday
 df["Date"].dt.is_month_end
-df.set_index("Date").resample("M").mea
+df.set_index("Date").resample("M").mean()
