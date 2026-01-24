@@ -1,0 +1,4 @@
+fun main() {
+    println("City: Kathmandu")
+    println("Temp: 22°C")
+}
