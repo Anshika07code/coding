@@ -1,0 +1,8 @@
+class Bank(var balance: Int) {
+    fun deposit(x: Int) { balance += x }
+}
+fun main() {
+    val b = Bank(1000)
+    b.deposit(500)
+    println(b.balance)
+}
