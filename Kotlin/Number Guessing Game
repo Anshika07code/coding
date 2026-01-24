@@ -1,0 +1,11 @@
+import kotlin.random.Random
+fun main() {
+    val n = Random.nextInt(1, 10)
+    while (true) {
+        print("Guess: ")
+        if (readLine()!!.toInt() == n) {
+            println("Correct!")
+            break
+        }
+    }
+}
