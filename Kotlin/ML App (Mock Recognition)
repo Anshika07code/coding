@@ -1,0 +1,4 @@
+fun main() {
+    println("Image scanned")
+    println("Face detected")
+}
