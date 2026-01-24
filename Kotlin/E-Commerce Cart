@@ -1,0 +1,4 @@
+fun main() {
+    val cart = mutableListOf(100, 250)
+    println("Bill: ${cart.sum()}")
+}
