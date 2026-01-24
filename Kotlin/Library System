@@ -1,0 +1,5 @@
+fun main() {
+    val books = mutableListOf("Java", "Kotlin")
+    books.remove("Java")
+    println(books)
+}
