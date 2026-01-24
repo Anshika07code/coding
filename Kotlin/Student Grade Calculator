@@ -1,0 +1,12 @@
+fun main() {
+    print("Marks: ")
+    val m = readLine()!!.toInt()
+    println(
+        when {
+            m >= 90 -> "A"
+            m >= 75 -> "B"
+            m >= 60 -> "C"
+            else -> "Fail"
+        }
+    )
+}
