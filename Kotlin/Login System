@@ -1,0 +1,7 @@
+fun main() {
+    print("Username: ")
+    val u = readLine()
+    print("Password: ")
+    val p = readLine()
+    println(if (u == "admin" && p == "1234") "Login OK" else "Denied")
+}
