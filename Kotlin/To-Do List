@@ -1,0 +1,14 @@
+fun main() {
+    val list = mutableListOf<String>()
+    while (true) {
+        print("1 Add 2 View 3 Exit: ")
+        when (readLine()!!) {
+            "1" -> {
+                print("Task: ")
+                list.add(readLine()!!)
+            }
+            "2" -> list.forEach(::println)
+            "3" -> break
+        }
+    }
+}
