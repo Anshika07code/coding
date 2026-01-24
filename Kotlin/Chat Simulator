@@ -1,0 +1,5 @@
+fun main() {
+    print("Message: ")
+    val msg = readLine()!!
+    println("Sent: $msg")
+}
