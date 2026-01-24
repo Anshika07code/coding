@@ -1,0 +1,4 @@
+import kotlin.random.Random
+fun main() {
+    println("Dice: ${Random.nextInt(1, 7)}")
+}
