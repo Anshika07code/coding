@@ -1,0 +1,9 @@
+fun main() {
+    var balance = 5000
+    print("Withdraw: ")
+    val w = readLine()!!.toInt()
+    if (w <= balance) {
+        balance -= w
+        println("Balance: $balance")
+    } else println("Insufficient balance")
+}
