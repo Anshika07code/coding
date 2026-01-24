@@ -1,0 +1,6 @@
+fun main() {
+    var votes = 0
+    print("Vote (y/n): ")
+    if (readLine() == "y") votes++
+    println("Votes: $votes")
+}
