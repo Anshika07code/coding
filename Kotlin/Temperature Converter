@@ -1,0 +1,5 @@
+fun main() {
+    print("Celsius: ")
+    val c = readLine()!!.toDouble()
+    println("Fahrenheit: ${c * 9 / 5 + 32}")
+}
