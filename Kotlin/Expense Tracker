@@ -1,0 +1,4 @@
+fun main() {
+    val expenses = listOf(200, 300, 150)
+    println("Total: ${expenses.sum()}")
+}
