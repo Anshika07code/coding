@@ -1,0 +1,6 @@
+fun main() {
+    var score = 0
+    print("2+2=? ")
+    if (readLine() == "4") score++
+    println("Score: $score")
+}
